@@ -1,0 +1,25 @@
+# Python virtual environment
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter Notebook cache
+.ipynb_checkpoints/
+
+# Dataset FERPlus
+/dataset/
+
+# Hasil eksperimen (sementara)
+/outputs/
+
+# Environment dan pengaturan lokal
+.env
+.vscode/
+
+# File sistem
+Thumbs.db
+.DS_Store
