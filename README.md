@@ -93,7 +93,7 @@ Metrik *precision*, *recall*, dan *F1-score* dianalisis untuk memberikan gambara
 Repository menggunakan sembilan file coding utama yang disusun berdasarkan tahapan penelitian.
 
 ```text
-skripsi-klasifikasi-ekspresi-wajah-efficientnetb0/
+SkripsiKlasifikasiEkspresiWajahEfficientNetB0/
 │
 ├── 01_cek_dataset.ipynb
 ├── 02_training_model_1_no_augmentation.ipynb
