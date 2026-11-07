@@ -13,8 +13,13 @@ __pycache__/
 # Dataset FERPlus
 /dataset/
 
-# Hasil eksperimen (sementara)
-/outputs/
+# Hasil eksperimen: hanya checkpoint terbaik yang disertakan
+/outputs/*
+!/outputs/models/
+/outputs/models/*
+!/outputs/models/model_1_baseline_no_augmentation_best.keras
+!/outputs/models/model_2_training_full_with_augmentation_best.keras
+!/outputs/models/model_3_training_full_augmentation_finetuning_best.keras
 
 # Environment dan pengaturan lokal
 .env
@@ -23,3 +28,25 @@ __pycache__/
 # File sistem
 Thumbs.db
 .DS_Store
+
+# Gambar hasil evaluasi terpilih
+!/outputs/figures/
+/outputs/figures/*
+!/outputs/figures/comparison_accuracy.png
+!/outputs/figures/comparison_precision_macro.png
+!/outputs/figures/comparison_recall_macro.png
+!/outputs/figures/comparison_f1_macro.png
+!/outputs/figures/confusion_matrix_model_1__baseline_no_augmentation.png
+!/outputs/figures/confusion_matrix_model_2__training_full_plus_augmentation.png
+!/outputs/figures/confusion_matrix_model_3__training_full_plus_augmentation_plus_fine_tuning.png
+!/outputs/figures/training_history_model_1_baseline_no_augmentation.png
+!/outputs/figures/training_history_model_2_training_full_with_augmentation.png
+!/outputs/figures/training_history_model_3_fine_tuning.png
+
+# CSV hasil evaluasi utama
+!/outputs/results/
+/outputs/results/*
+!/outputs/results/comparison_results_3_models.csv
+!/outputs/results/classification_report_model_1__baseline_no_augmentation.csv
+!/outputs/results/classification_report_model_2__training_full_plus_augmentation.csv
+!/outputs/results/classification_report_model_3__training_full_plus_augmentation_plus_fine_tuning.csv
