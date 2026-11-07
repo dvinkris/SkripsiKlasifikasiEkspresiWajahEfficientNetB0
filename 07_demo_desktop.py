@@ -762,8 +762,8 @@ class FERDesktopApp(QMainWindow):
             "Klik 'Start Webcam' atau Pilih foto.",
             preferred_size=(640, 480),
             minimum_size=(200, 120),
-            #fill_area=True, #Untuk tampilan webcam/foto full 1 area panel
-            fill_area=False, #Untuk tampilan webcam/foto supaya utuh tidak terpotong
+            fill_area=True, #Untuk tampilan webcam/foto full 1 area panel
+            #fill_area=False, #Untuk tampilan webcam/foto supaya utuh tidak terpotong
         )
         self.video_layout.addWidget(video_title)
         self.video_layout.addWidget(self.video_label, 1)
