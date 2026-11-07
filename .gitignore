@@ -13,7 +13,7 @@ __pycache__/
 # Dataset FERPlus
 /dataset/
 
-# Hasil eksperimen: hanya checkpoint terbaik yang disertakan
+# Hasil eksperimen: hanya checkpoint model terbaik yang disertakan
 /outputs/*
 !/outputs/models/
 /outputs/models/*
